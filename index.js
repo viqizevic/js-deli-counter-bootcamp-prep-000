@@ -14,13 +14,13 @@ function nowServing(deli) {
 }
 
 function currentLine(deli) {
+  var lines = "The line is currently"
   if (deli.length === 0) {
-    return "The line is currently empty."
+    lines = lines + ": empty."
   } else {
-    var lines = ""
     for (var i = 0; i < deli.length; i++) {
       lines = `${lines} ${i+1} ${deli[i]}`
     }
-    return lines;
   }
+  return lines;
 }
