@@ -5,6 +5,6 @@ function takeANumber (deli, name) {
 }
 
 function nowServing(deli) {
-  var name = deli.pop()
+  var name = deli.unshift()
   return name
 }
