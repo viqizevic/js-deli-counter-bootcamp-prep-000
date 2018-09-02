@@ -5,6 +5,6 @@ function takeANumber (deli, name) {
 }
 
 function nowServing(deli) {
-  name = deli.pop()
+  var name = deli.pop()
   return name
 }
