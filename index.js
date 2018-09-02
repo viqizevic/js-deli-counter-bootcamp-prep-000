@@ -20,7 +20,7 @@ function currentLine(deli) {
   } else {
     lines = lines + ":"
     for (var i = 0; i < deli.length; i++) {
-      lines = `${lines} ${i+1}. ${deli[i]}`
+      lines = `${lines} ${i+1}. ${deli[i]},`
     }
   }
   return lines;
