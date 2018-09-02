@@ -18,6 +18,7 @@ function currentLine(deli) {
   if (deli.length === 0) {
     lines = lines + " empty."
   } else {
+    lines = lines + ":"
     for (var i = 0; i < deli.length; i++) {
       lines = `${lines} ${i+1} ${deli[i]}`
     }
