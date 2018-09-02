@@ -1,2 +1,4 @@
 
-function takeANumber ()
+function takeANumber (deli, name) {
+  
+}
